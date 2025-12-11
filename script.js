@@ -4,7 +4,7 @@ const scoreDisplay = document.getElementById('score');
 
 let playerPos = { x: 180, y: 100 };
 let velocityY = 0;
-let gravity = 0.5;
+let gravity = 0.3;
 let isJumping = false;
 let score = 0;
 document.addEventListener('keydown', (e) => {
